@@ -67,9 +67,10 @@ Note: some build commands use commands which may not be available on standard Wi
 4. If needed, create a new clasp `webapp` project. See [clasp documentation](https://github.com/google/clasp#create) for more details. Use the `clasp.sample.json` as a template if needed.
 5. Login to Google Apps Script: `clasp login`
 6. Make changes locally if desired
-7. Build the app: `npm run build:prod`
-8. Push files to Apps Script project: `clasp push`
-9. Deploy: `clasp deploy`
+7. Create the folder `mkdir icons` at the root of the project if it does not exist
+8. Build the app: `npm run build:prod`
+9. Push files to Apps Script project: `clasp push`
+10. Deploy: `clasp deploy`
 
 ### References
 
